@@ -631,7 +631,7 @@ bool vl53l0x_init()
     if (!init_config(VL53L0X_IDX_FIRST)) {
         return false;
     }
-	
+/*	
 #ifdef VL53L0X_SECOND
     if (!init_config(VL53L0X_IDX_SECOND)) {
         return false;
@@ -641,7 +641,7 @@ bool vl53l0x_init()
     if (!init_config(VL53L0X_IDX_THIRD)) {
         return false;
     }
-#endif
+#endif*/
     return true;
 }
 
